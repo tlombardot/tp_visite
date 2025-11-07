@@ -2,45 +2,46 @@
 <html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Carte de visite - Thomas Lombardot</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta name="description" content="Carte de visite">
 </head>
 <body>
     <main>
         <header>
+            <img class = "imgPerso"src="img/img-perso.png" alt="ProfilPerso">
             <hgroup>
-                <img src="img/img-perso.png" alt="ProfilPerso">
-                <h1>
-                    Thomas Lombardot
-                </h1>
-                <p>
-                    Développeur FullStack
-                </p>
+                    <h1>
+                        Thomas Lombardot
+                    </h1>
+                    <p>
+                        Développeur FullStack
+                    </p>
             </hgroup>
-            <img src="img/imgProfile.png" alt ="Logo Entreprise">
-        </header>
-        <section class ="infoPerso">
-            <address>
+            <address class="addressPerso">
                 <ul class="infoPerso">
-                    <li>Tél : 01 02 03 04 05</li>
-                    <li>Mob : 06 12 34 45 78</li>
-                    <li><a class ="infoPerso" href = "mailto:votre.email@gmail.com">Email : votre.email@gmail.com</a></li>
+                    <li><span class = "phone"><i class="fa-solid fa-phone fa-btn"></i></span>  : 06 12 34 45 78</li><br>
+                    <li><span class = "email"><i class="fa-solid fa-envelope fa-btn"></i></span><a class ="infoPerso" href = "mailto:tlombardot@sylstia.com"> : tlombardot@sylstia.com</a></li>
                 </ul>
             </address>
-        </section>
-        <section class = "infoEntrep">
-            <h2>
-                Votre Entreprise
-            </h2>
-            <address>
-                <ul>
-                    <li>198, rue de la République</li>
-                    <li>69002 Lyon</li>
-                    <li><a href = "http://www.logogenie.fr" target="_blank">http://www.logogenie.fr</a></li>
-                </ul>
-            </address>
-        </section>
+        </header>
+        <span class="bar"></span>
+            <section class = "infoEntrep">
+                <img class ="imgEntrep"src="img/imgBanner.png" alt="logo Entreprise">
+                <hgroup>
+                    <h2>
+                        Sylstia Entreprise
+                    </h2>
+                    <address>
+                        <ul class="infoEntrepC">
+                            <li><i class="fa-solid fa-location-dot fa-btn"></i> 28 rue de Coda, 21000 Dijon</li>
+                            <li><i class="fa-solid fa-globe fa-btn"></i> <a class = "infoEntrepC" href = "http://www.sylstia.com" target="_blank">http://www.sylstia.com</a></li>
+                        </ul>
+                    </address>
+                </hgroup>
+            </section>
     </main>
 </body>
 </html>
