@@ -1,0 +1,15 @@
+
+
+:root{
+    font-family: sans-serif;
+}
+
+main{
+    margin: auto;
+}
+
+.infoPerso{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
